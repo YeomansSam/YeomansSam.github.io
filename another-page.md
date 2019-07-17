@@ -5,6 +5,6 @@ layout: default
 ## Welcome to another page
 
 _yay_
-First edit of the web page.
+_First edit of the web page._
 
 [back](./)
