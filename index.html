@@ -249,12 +249,18 @@
           <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
           <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/soy0298@gmail.com" method="POST">
   <fieldset id="fs-frm-inputs">
+    <div class="row control-group">
     <label for="full-name">Full Name</label>
     <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    </div>
+    <div class="row control-group">
     <label for="email-address">Email Address</label>
     <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-    <label for="message">                  Message</label>
-    <textarea rows="5" name="message" id="message" placeholder="Enter message" required=""></textarea>
+    </div>
+    <div class="row control-group">
+    <label for="message">Message</label>
+    <textarea rows="10" name="message" id="message" placeholder="Enter message" required=""></textarea>
+    </div>
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
   </fieldset>
   <input type="submit" value="Submit">
